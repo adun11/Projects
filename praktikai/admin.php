@@ -11,7 +11,7 @@
     <?php
    	$servername = "mysql.hostinger.lt";
     $username = "u949282972_adun";
-    $password = "kompasxx";
+    $password = "-------";
     $dbname = "u949282972_users";
     $conn = new mysqli($servername, $username, $password, $dbname);
 	$query=mysqli_query($conn, "SELECT * FROM Users WHERE username='".$user."' AND password='".$pass."'");
